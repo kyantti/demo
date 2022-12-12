@@ -36,7 +36,7 @@ public class PrimaryController implements Initializable {
         for (int i = 0; i < Game.getInstance().players.size(); i++) {
             Game.getInstance().players.get(i).setColor(Color.values()[i]);
         }
-            
+        
     }
 
     @Override

@@ -14,7 +14,7 @@ public class Player {
     public Player(int id, int tokens) {
         this.id = id;
         this.tokens = tokens;
-        this.color = color.GRAY;
+        this.color = Color.GRAY;
         this.nextTurnSkipped = false;
     }
 

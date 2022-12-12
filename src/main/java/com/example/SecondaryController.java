@@ -38,8 +38,8 @@ public class SecondaryController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        System.out.println("adios");
-        
+        pane.getStyleClass().add("mainPane");
+        grid.getStyleClass().add("gridPane");
         
     }
 
